@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + "/../pants.rb"
+require File.join(File.dirname(__FILE__), "myip.rb")
 
 set :run, false
 set :env, ENV['APP_ENV'] || :production
