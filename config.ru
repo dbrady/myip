@@ -4,4 +4,4 @@ set :run, false
 set :env, ENV['APP_ENV'] || :production
 set :port, 4568
 
-run Myip.application
+run Sinatra.application
